@@ -23,6 +23,8 @@
     text-decoration: none;
     padding-right: 10px;
     font-size: 20px;
+    color: #fff;
+
 }
 
 .head i span {
@@ -61,7 +63,7 @@
     display: inline-block;
     font-size: 48px;
     line-height: 1;
-    color: #fff
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .icon-box h3 {
@@ -108,6 +110,19 @@
     text-decoration: none;
     color: #fff;
 }
+.navicon{
+    position: relative;
+}
+.navicon  li a ::before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 60px;
+    height: 2px;
+    bottom: 0px;
+    background: #db7208;
+
+}
 
 /* Banner */
 .banner-info {
@@ -142,22 +157,46 @@
     color: #fff;
     background-color: #008374;
     padding: 14px 40px; 
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 15px rgb(0 0 0 / 8%);
+    border: 2px solid rgba(255, 255, 255, 0.1);
 
 }
-.link:hover{
-    color: rgb(224, 23, 23);
-
-}
-.icofont-play-alt-2:hover{
+.link i span{
     color: #fff;
+    font-size: 20px;
+
+
 }
+
+
 /* ABOUT */
 
 .about-titel {
+    position: relative;
     text-align: center;
     margin-top: 200px;
     margin-bottom: 70px;
 }
+.about-titel h2{
+    position: relative;
+
+}
+.about-titel h2::before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 60px;
+    height: 2px;
+    bottom: 0px;
+    background: #008374;
+
+    left: 0;
+    right: 0;
+    margin: auto;
+    
+}
+
 .about-titel h2 {
     font-size: 32px;
     font-weight: 600;
@@ -213,21 +252,54 @@
     line-height: 20px;
 }
 .image img{
-    position: relative;
     margin-top: 30px;
     border-radius: 15px;
     max-width: 100%;
     height: auto;
 }
+.image{
+    position: relative;
+}
 .image a{
     position: absolute;
-    top: 255%;
-    left: 73%;
+    top: 50%;
+    left: 46%;
     text-decoration: none; 
     font-size: 50px;
     color: #007456;
     background: #fff;
     border-radius: 10px;
    
+    
+}
+.client-icon{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding: 40px 0;
+}
+.client-icon img{
+
+    width :86px;
+}
+.ha-client{
+    padding: 32px;
+}
+.ha-left{
+    padding: 20px 0;
+    border-bottom: 1px solid #e4e4e4;
+}
+.ha-left span{
+    float: left;
+    font-size: 40px;
+    display: block;
+    font-weight: 700;
+    color:#007456;
+    line-height: 40px;
+    margin-right: 15px;
+}
+.ha-left p{
+    margin: 14px;
+    font-family: system-ui;
+    font-size: 15px;
     
 }
