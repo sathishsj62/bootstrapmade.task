@@ -50,7 +50,6 @@
 .icon-box {
     padding: 60px 30px;
     background: #008d7d;
-    box-shadow: 0 0 29px 0 rgb(0 0 0 / 8%);
     border-radius: 8px;
     text-align: center;
 
@@ -144,6 +143,13 @@
     background-color: #008374;
     padding: 14px 40px; 
 
+}
+.link:hover{
+    color: rgb(224, 23, 23);
+
+}
+.icofont-play-alt-2:hover{
+    color: #fff;
 }
 /* ABOUT */
 
