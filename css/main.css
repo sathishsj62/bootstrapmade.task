@@ -283,9 +283,7 @@
     text-decoration: none;
     font-size: 50px;
     color: #007456;
-    background: #fff;
-    border-radius: 10px;
-
+   
 
 }
 
@@ -363,6 +361,7 @@
 }
 
 .call-items button {
+    color: #fff;
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 1px;
@@ -372,6 +371,7 @@
     transition: 0.5s;
     margin: 10px;
     border: 2px solid #fff;
+    background: transparent;
 
 }
 .icofont-play-alt-1:hover{
@@ -395,6 +395,20 @@
     margin-top: 60px;
     text-align: center;
     padding-bottom: 60px;
+    position: relative;
+}
+.shead h2::before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 60px;
+    height: 2px;
+    bottom: 0px;
+    background: #008374;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top:-50;
 }
 
 .shead h2 {
