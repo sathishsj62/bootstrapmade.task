@@ -501,7 +501,7 @@
     text-decoration: none;
 }
 
-/* Testimonials */
+/* Testimonials
 .htext h2 {
     font-size: 32px;
     font-weight: 600;
@@ -636,5 +636,64 @@
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
     opacity: .5;
-    transition: opacity .6s ease;
+    transition: opacity .6s ease; */
+
+
+/* for- */
+.for-card{
+    min-height: 120px;
 }
+.card-title{
+    position: relative;
+    padding: 30px 15px 10px 130px;
+    line-height: 24px;
+
+}
+.card-title img{
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+
+}
+.carousel-indicators{
+position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 300px;
+    top: 300px;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+    list-style: none;
+}
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color:#00796b;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease; 
+}
+.card-body{
+    padding: 1rem 1.5rem;
+}
+        
