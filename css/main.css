@@ -427,7 +427,7 @@
     color: #6f6f6f;
 }
 
-.Ser-box{
+.Ser-box {
     margin-bottom: 20px;
     height: auto;
     border-radius: 10px;
@@ -501,7 +501,7 @@
     text-decoration: none;
 }
 
- /* Testimonials */
+/* Testimonials */
 .htext h2 {
     font-size: 32px;
     font-weight: 600;
@@ -535,7 +535,7 @@
     background: #00796b;
 }
 
-.review-card{
+.review-card {
     min-height: 120px;
     box-sizing: content-box;
     padding: 30px;
@@ -546,13 +546,14 @@
     border-radius: 10px;
 }
 
-.review-card-title{
+.review-card-title {
     position: relative;
     padding: 30px 15px 10px 130px;
     line-height: 24px;
 
 }
-.review-card-title img{
+
+.review-card-title img {
     position: absolute;
     left: 15px;
     top: 10px;
@@ -561,8 +562,9 @@
     border-radius: 50%;
 
 }
-.carousel-indicators{
-position: absolute;
+
+.carousel-indicators {
+    position: absolute;
     right: 0;
     bottom: 0;
     left: 0;
@@ -576,6 +578,7 @@ position: absolute;
     margin-left: 15%;
     list-style: none;
 }
+
 .carousel-indicators [data-bs-target] {
     box-sizing: content-box;
     flex: 0 1 auto;
@@ -587,28 +590,32 @@ position: absolute;
     margin-left: 3px;
     text-indent: -999px;
     cursor: pointer;
-    background-color:#00796b;
+    background-color: #00796b;
     background-clip: padding-box;
     border: 0;
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
     opacity: .5;
-    transition: opacity .6s ease; 
+    transition: opacity .6s ease;
 }
-.card-body{
+
+.card-body {
     padding: 1rem 1.5rem;
 }
-.review-icon{
-    color:#ffc107;;
-}  
 
- /* Portfolio  */
-.port-header{
+.review-icon {
+    color: #ffc107;
+    ;
+}
+
+/* Portfolio  */
+.port-header {
     text-align: center;
     padding-bottom: 60px;
     margin-top: 90px;
 }
-.port-header h2{
+
+.port-header h2 {
     font-size: 32px;
     font-weight: 600;
     margin-bottom: 20px;
@@ -617,12 +624,13 @@ position: absolute;
 
 }
 
-.port-header p{
+.port-header p {
     margin-bottom: 0;
     color: #6f6f6f;
     margin-top: 0;
 
 }
+
 .port-header h2::after {
     content: "";
     position: absolute;
@@ -636,15 +644,17 @@ position: absolute;
     margin: auto;
     background: #00796b;
 }
-.port-filter{}
 
-.port-filter ul{
+.port-filter {}
+
+.port-filter ul {
     padding: 0 0 20px 0;
     margin: 0 auto;
     list-style: none;
     text-align: center;
 }
-.port-filter ul li{
+
+.port-filter ul li {
     cursor: pointer;
     display: inline-block;
     padding: 0;
@@ -654,12 +664,14 @@ position: absolute;
     line-height: 1;
     transition: all 0.3s ease-in-out;
 }
-.port-box{
+
+.port-box {
     position: relative;
     left: 0px;
     top: 0px;
 }
-.port-card img{
+
+.port-card img {
     transition: 0.3s;
     position: relative;
     z-index: 1;
@@ -667,7 +679,7 @@ position: absolute;
     height: auto;
 }
 
-.port-card{
+.port-card {
     box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
     border-radius: 10px;
     height: 100%;
@@ -676,24 +688,27 @@ position: absolute;
 }
 
 
-.card-body{
+.card-body {
     padding: 25px 20px;
     background-color: #fff;
     position: relative;
     border-top: 1px solid #f3f3f3;
     z-index: 2;
 }
-.card-body h5{
+
+.card-body h5 {
     font-size: 18px;
     font-weight: 600;
     padding-right: 50px;
     font-family: var(--font-primary);
 }
-.card-body h5:hover{
+
+.card-body h5:hover {
     color: #00796b;
     cursor: pointer;
 }
-.card-body p{
+
+.card-body p {
     color: #6c757d;
     font-size: 14px;
     margin-top: 0;
@@ -701,13 +716,15 @@ position: absolute;
     padding-right: 50px;
 
 }
+
 /* Our Team */
-.ourteam{
+.ourteam {
     margin-top: 60px;
     text-align: center;
 
 }
-.ourteam h2{
+
+.ourteam h2 {
     font-size: 32px;
     font-weight: 600;
     margin-bottom: 20px;
@@ -716,13 +733,15 @@ position: absolute;
     line-height: 1.2;
 
 }
-.ourteam p{
+
+.ourteam p {
     margin-bottom: 60px;
     color: #6f6f6f;
     margin-top: 0;
 
 }
-.team-card{
+
+.team-card {
     text-align: center;
     background: #fff;
     border-radius: 10px;
@@ -730,7 +749,8 @@ position: absolute;
     overflow: hidden;
     box-shadow: 0px 2px 25px rgb(0 0 0 / 10%);
 }
-.team-card img{
+
+.team-card img {
     position: relative;
     max-width: 100%;
     height: auto;
@@ -738,12 +758,14 @@ position: absolute;
     overflow: hidden;
 
 }
-.card-team h4{
+
+.card-team h4 {
     font-weight: 700;
     margin-top: 16px;
     margin-bottom: 2px;
     font-size: 20px;
 }
+
 .ourteam-header h2::after {
     content: "";
     position: absolute;
@@ -758,20 +780,22 @@ position: absolute;
     background: #00796b;
 }
 
-.card-team span{
+.card-team span {
     font-style: italic;
     display: block;
     font-size: 14px;
     color: #6c757d;
 }
-.social{
+
+.social {
     margin-top: 15px;
     margin-bottom: 10px;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-.social a{
+
+.social a {
     color: #a2a2a2;
     transition: 0.3s;
     border-radius: 50%;
@@ -783,15 +807,136 @@ position: absolute;
     border: 1px solid #bbbbbb;
     text-decoration: none;
 }
-.social i{
+
+.social i {
     font-size: 18px;
     margin: 0 2px;
 }
-.social a:hover{
+
+.social a:hover {
     color: #008374;
 }
-.port-card img{
+
+.port-card img {
     transition: 0.3s;
     position: relative;
     z-index: 1;
+}
+
+/*Frequently */
+.Frequently {
+    padding: 60px 0;
+    overflow: hidden;
+
+}
+
+.content-box h3 {
+    font-weight: 400;
+    font-size: 34px;
+    font-family: var(--font-primary);
+}
+
+.content-box p {
+    font-size: 17px;
+    color: #6c757d;
+    margin-top: 5px;
+    line-height: 1.2;
+}
+
+/* Recent Blog Posts */
+.Recent-head {
+    text-align: center;
+    padding-bottom: 60px;
+
+}
+
+.Recent-head h2 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+
+}
+
+.Recent-head p {
+    margin-bottom: 0;
+    color: #6f6f6f;
+
+}
+
+.Recent-head h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: var(--color-primary);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background: #00796b;
+}
+
+.blog-box {
+    box-shadow: 0 4px 16px rgb(0 0 0 / 10%);
+    background-color: #fff;
+    padding: 30px;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.recent-image {
+    max-height: 240px;
+    margin: -30px -30px 15px -30px;
+    overflow: hidden;
+
+}
+
+.recent-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.blog-box p {
+    font-size: 16px;
+    color: #6f6f6f;
+    margin-bottom: 10px;
+}
+
+.blog-box h2 {
+    font-size: 22px;
+    font-weight: 700;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+.blog-box a{
+    color: #171616;
+    text-decoration: none;
+}
+
+.blog-dwon {
+    position: relative;
+    padding: 13px 120px 11px 76px;
+    line-height: 20px;
+   
+}
+
+.blog-dwon img {
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    left: 15px;
+
+}
+
+.blog-dwon p {
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-top: 0;
 }
