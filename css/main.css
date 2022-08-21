@@ -675,6 +675,9 @@
     height: auto;
     
 }
+.port-card img:hover{
+    transform: scale(1.5);
+}
 
 
 .port-card {
