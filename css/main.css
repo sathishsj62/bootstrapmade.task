@@ -645,8 +645,6 @@
     background: #00796b;
 }
 
-.port-filter {}
-
 .port-filter ul {
     padding: 0 0 20px 0;
     margin: 0 auto;
@@ -671,13 +669,13 @@
     top: 0px;
 }
 
-.port-card img {
-    transition: 0.3s;
-    position: relative;
+.port-card img{
     z-index: 1;
     max-width: 100%;
     height: auto;
+    
 }
+
 
 .port-card {
     box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
@@ -685,7 +683,13 @@
     height: 100%;
     overflow: hidden;
     margin-bottom: 25px;
+    position: relative;
 }
+.port-card img:hover{
+    transform: scale(0.3s);
+
+}
+
 
 
 .card-body {
@@ -944,7 +948,7 @@
 }
 
 .blog-box h2 {
-    font-size: 22px;
+    font-size: 21px;
     font-weight: 700;
     padding: 0;
     margin: 0 0 20px 0;
@@ -956,7 +960,7 @@
 
 .blog-dwon {
     position: relative;
-    padding: 13px 120px 11px 76px;
+    padding: 20px 120px 11px 76px;
     line-height: 20px;
    
 }
