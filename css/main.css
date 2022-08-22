@@ -1023,7 +1023,7 @@
 
 }
 .con-box{
-    background-color: #007456;
+    background-color: #008374;
     height: 100%;
     padding: 20px;
     border-radius: 10px 0 0 10px;
@@ -1071,6 +1071,7 @@
 }
 .con-item .icofont:hover{
     color: #fff;
+    background: #fff;
 }
 /* footer */
 .footer{
@@ -1138,9 +1139,13 @@
     padding: 10px 0;
     display: flex;
     align-items: center;
+    
 }
 .fot-Useful ul li a{
     text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+}
+.fot-Useful ul li a:hover{
     color: #fff;
 }
 .fot-contact{
