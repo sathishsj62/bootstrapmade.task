@@ -24,6 +24,7 @@
     padding-right: 10px;
     font-size: 20px;
     color: #fff;
+   
 
 }
 
@@ -677,7 +678,7 @@
     height: auto;
     
 }
-.port-card img:hover{
+.port-card:hover img{
     transform: scale(1.2);
 }
 
@@ -694,9 +695,6 @@
     transform: scale(0.3s);
 
 }
-
-
-
 .card-body {
     padding: 25px 20px;
     background-color: #fff;
@@ -822,8 +820,9 @@
     margin: 0 2px;
 }
 
-.social a:hover {
+.social a:hover  {
     color: #008374;
+    
 }
 
 .port-card img {
@@ -1072,9 +1071,14 @@
     font-size: 14px;
 }
 .con-item .icofont:hover{
-    color: #fff;
+    color: #008d7d;
     background: #fff;
 }
+.con-item:hover i {
+    color: green;
+    background: #fff;
+}
+
 /* footer */
 .footer{
     margin-top: 60px;
