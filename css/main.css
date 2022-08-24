@@ -1,3 +1,4 @@
+/* Top info */
 .top-info {
     background-color: #00796b;
 }
@@ -79,7 +80,7 @@
     transition: 0.3s;
     text-decoration: none;
 }
-
+/* top Nav */
 .top-navbar {
     background-color: #008374;
 }
@@ -1017,6 +1018,13 @@
     bottom: 0;
     margin: auto;
 }
+.contact-box{
+    background: #fff;
+    box-shadow: 0px 2px 25px rgb(0 0 0 / 10%);
+}
+.contact-item{
+    padding-left: 0px;
+} 
 .contact-head p{
     margin-bottom: 0;
     color: #6f6f6f;
@@ -1028,7 +1036,7 @@
     height: 100%;
     padding: 20px;
     border-radius: 10px 0 0 10px;
-    box-shadow: 0px 2px 25px rgb(0 0 0 / 10%);
+   
 }
 .con-item{
     width: 100%;
@@ -1174,7 +1182,6 @@
     width: 100%;
     height: 100%;
     background: #fff;
-    box-shadow: 0px 2px 25px rgb(0 0 0 / 10%);
     padding: 30px;
     border-radius: 0 10px 10px 0;
 }
