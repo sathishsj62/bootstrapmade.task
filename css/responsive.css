@@ -1,9 +1,21 @@
-/* h1{
-    font-size: 20px;
+@media(max-width:768px){
+    .services-header{
+        margin-top: 30px;
+    
+    }
+    .shead{
+        margin-top: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+    position: relative;
+
+    }
+    .shead h2{
+     font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    position: relative;
+
+    }
 }
-h1{
-    font-size: 30px;
-}
-h1{
-    font-size: 50px;
-} */
