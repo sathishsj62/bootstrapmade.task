@@ -173,7 +173,7 @@
 
 
 }
-/* Banner icon */@
+/* Banner icon */
 /* .bnicon-box{
     padding: 60px 30px;
     position: relative;
@@ -212,8 +212,8 @@
 .about-titel {
     position: relative;
     text-align: center;
-    margin-top: 200px;
-    margin-bottom: 70px;
+    margin-top: 70px;
+    margin-bottom: 60px;
 }
 
 .about-titel h2 {
