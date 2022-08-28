@@ -129,31 +129,51 @@
 }
 
 /* Banner */
-.banner-info {
-    background-color: #008374;
-    padding-bottom: 55px;
+.banner {
+    width: 100%;
+    position: relative;
+    background: #008374;
+    padding: 60px 0 0 0;
+    
 }
-
-.bright {
-    height: 500px;
-
+.bright{
+margin-top: 80px;
 }
-
 .bright h1 {
-    color: #fff;
     font-size: 48px;
     font-weight: 700;
     margin-bottom: 20px;
-    margin-top: 80px;
+    color: #fff;
+    margin-top: 0;
+    line-height: 1.2;
 }
-
 .bright p {
-    margin-bottom: 30px;
     color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    margin-bottom: 30px;
+    margin-top: 0;
+    text-align: left;
 }
 
+.bn-image img{
+    max-width: 100%;
+}
+.link{
+    display: flex;
+    justify-content: flex-start
+}
 .link a {
     text-decoration: none;
+
+}
+.link a i{
+    margin-left: 25px;
+    color: #1ccbb0;
+    font-size: 32px;
+    vertical-align: middle;
+}
+.link a i::before {
+    vertical-align: middle;
 }
 
 .link a button {
@@ -170,50 +190,29 @@
 .link i span {
     color: #fff;
     font-size: 20px;
+    vertical-align: middle;
 
 
 }
-/* Banner icon */
-/* .bnicon-box{
-    padding: 60px 30px;
+/* banner icon */
+.banner-icon{
     position: relative;
-    overflow: hidden;
-    background: #008d7d;
-    box-shadow: 0 0 29px 0 rgb(0 0 0 / 8%);
-    transition: all 0.3s ease-in-out;
-    border-radius: 8px;
-    z-index: 1;
-    height: 100%;
+    bottom: 100px;
+}
+.icon-box{
     width: 100%;
-    text-align: center;
+    height: 250px;
 }
-.bnicon-box .icon-box{
-    margin-bottom: 20px;
-    padding-top: 10px;
-    display: inline-block;
-    transition: all 0.3s ease-in-out;
-    font-size: 48px;
-    line-height: 1;
-    color: rgba(255, 255, 255, 0.6);
+.banner-info{
+padding-bottom: 150px;
 }
-.icon-box h3{
-    font-weight: 700;
-    margin-bottom: 15px;
-    font-size: 24px;
-}
-.icon-box h3 a{
-    color: #fff;
-    transition: 0.3s;
-} */
-
 
 /* ABOUT */
 
 .about-titel {
     position: relative;
     text-align: center;
-    margin-top: 70px;
-    margin-bottom: 60px;
+    margin-bottom: 45px;
 }
 
 .about-titel h2 {
@@ -872,11 +871,14 @@
     overflow: hidden;
 
 }
+.content-box {
+    padding-right: 3rem;
+    padding-left: 3rem;
+}
 
 .content-box h3 {
     font-weight: 400;
     font-size: 34px;
-    font-family: var(--font-primary);
 }
 
 .content-box p {
