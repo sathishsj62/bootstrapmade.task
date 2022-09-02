@@ -110,9 +110,7 @@
 
 .navicon ul {
     list-style: none;
-    /* display: flex; */
-    justify-content: space-evenly;
-    padding: 30px;
+    padding: 15px;
 }
 
 .navicon ul li a {
