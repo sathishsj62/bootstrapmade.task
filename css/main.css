@@ -90,7 +90,7 @@
 }
 .navbar-nav{
     color: rgba(255, 255, 255, 0.6)!important;
-    ;
+    
 }
 .navcontent a {
     text-decoration: none;
@@ -107,10 +107,13 @@
     color: #f96f59;
 
 }
+ul.navbar-nav {
+    margin-top: 14px;
+    padding: 0px;
 
+}
 .navicon ul {
     list-style: none;
-    padding: 15px;
 }
 
 .navicon ul li a {
@@ -389,9 +392,9 @@ padding-bottom: 150px;
     position: absolute;
     font-size: 50px;
     top: 35px;
-    left: 530px;
     color: #007456;
-
+    left: 0;
+    right: 0;
 }
 
 .call-items h2 {
@@ -582,10 +585,10 @@ padding-bottom: 150px;
 }
 
 .review-card {
-    min-height: 120px;
+    max-height: 100%;
     box-sizing: content-box;
-    padding: 30px;
-    margin: 30px 10px;
+    padding: 20px;
+    margin: 10px;
     box-shadow: 0px 0 15px rgb(0 0 0 / 10%);
     position: relative;
     background: #fff;
@@ -594,16 +597,17 @@ padding-bottom: 150px;
 
 .review-card-title {
     position: relative;
-    padding: 30px 15px 10px 130px;
+    padding: 30px 15px 10px 120px;
     line-height: 24px;
-
 }
 
+
 .review-card-title img {
+    padding: 10px;
     position: absolute;
-    left: 15px;
-    top: 10px;
-    width: 100px;
+    left: 10px;
+    top: 21px;
+    width: 98px;
     height: auto;
     border-radius: 50%;
 
@@ -612,10 +616,9 @@ padding-bottom: 150px;
 .carousel-indicators {
     position: absolute;
     right: 0;
-    bottom: 0;
+    bottom: -73px;
     left: 0;
-    top: 430px;
-    z-index: 2;
+  
     display: flex;
     justify-content: center;
     padding: 0;
@@ -882,13 +885,13 @@ padding-bottom: 150px;
 
 }
 .content-box {
-    padding-right: 3rem;
-    padding-left: 3rem;
+    padding: 10px 14px 30px;
 }
 
 .content-box h3 {
     font-weight: 400;
     font-size: 34px;
+    padding-bottom: 10px;
 }
 
 .content-box p {
@@ -985,9 +988,9 @@ padding-bottom: 150px;
 }
 
 .recent-image {
-    max-height: 240px;
     margin: -30px -30px 15px -30px;
     overflow: hidden;
+    max-height: 100%;
 
 }
 
