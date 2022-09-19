@@ -162,10 +162,7 @@ margin-top: 80px;
 .bn-image img{
     max-width: 100%;
 }
-/* .link{
-    display: flex;
-    justify-content: flex-start
-} */
+
 .link a {
     text-decoration: none;
 
@@ -232,7 +229,6 @@ padding-bottom: 150px;
     height: 2px;
     bottom: 0px;
     background: #008374;
-
     left: 0;
     right: 0;
     margin: auto;
@@ -244,8 +240,13 @@ padding-bottom: 150px;
     font-weight: 600;
     margin-bottom: 20px;
     padding-bottom: 20px;
-
 }
+.about-titel p{
+    font-size: 20px;
+    line-height: 22px;
+    color: #6f6f6f;
+}
+
 
 .col-lg-6 h3 {
     font-weight: 700;
@@ -455,15 +456,17 @@ padding-bottom: 150px;
 
 .shead h2 {
     font-size: 32px;
-    font-weight: 600;
+    font-weight: bold;
     margin-bottom: 20px;
     padding-bottom: 20px;
     position: relative;
 }
 
 .shead p {
-    margin-bottom: 0;
-    color: #6f6f6f;
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
 }
 
 .Ser-box {
@@ -644,7 +647,7 @@ padding-bottom: 150px;
 
 .review-icon {
     color: #ffc107;
-    ;
+    
 }
 
 /* Portfolio  */
